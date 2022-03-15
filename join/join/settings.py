@@ -29,7 +29,8 @@ ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
     "34.159.214.134",
-    "api.kanban-join.com"
+    "api.kanban-join.com",
+    ".heroku.com"
 ]
 
 
