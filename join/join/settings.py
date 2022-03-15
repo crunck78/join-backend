@@ -61,11 +61,10 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://example.com",
-    "https://sub.example.com",
-    "http://localhost:8080",
-    "http://127.0.0.1:9000",
-    "http://127.0.0.1:5500"
+    "localhost",
+    "127.0.0.1",
+    ".heroku.com"
+
 ]
 
 ROOT_URLCONF = 'join.urls'
