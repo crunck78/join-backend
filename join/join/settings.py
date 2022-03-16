@@ -30,7 +30,7 @@ ALLOWED_HOSTS = [
     "localhost",
     "34.159.214.134",
     "api.kanban-join.com",
-    ".heroku.com"
+    ".herokuapp.com"
 ]
 
 
@@ -47,13 +47,13 @@ INSTALLED_APPS = [
     'tasks.apps.TasksConfig',
     'custom_users.apps.CustomUsersConfig',
 
-    "corsheaders",
+    # "corsheaders",
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    "corsheaders.middleware.CorsMiddleware",
+    # "corsheaders.middleware.CorsMiddleware",
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -62,10 +62,11 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "localhost",
     "127.0.0.1",
-    ".heroku.com"
-
+    "localhost",
+    "34.159.214.134",
+    "api.kanban-join.com",
+    ".herokuapp.com"
 ]
 
 ROOT_URLCONF = 'join.urls'
