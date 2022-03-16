@@ -87,6 +87,8 @@ coverage.xml
 # Jupyter Notebook 
 .ipynb_checkpoints 
 
+Readme.MD
+
 # pyenv 
 .python-version 
 

@@ -1,8 +1,8 @@
 asgiref==3.5.0
+backports.zoneinfo==0.2.1
 Django==4.0.3
 django-cors-headers==3.11.0
+gunicorn==20.1.0
+psycopg2==2.9.3
 sqlparse==0.4.2
 tzdata==2021.5
-gunicorn==20.1.0
-# ONLY FOR PYTHON VERSION < 3.9
-backports.zoneinfo==0.2.1
