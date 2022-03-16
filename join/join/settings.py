@@ -61,13 +61,13 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "127.0.0.1",
-    "localhost",
-    "34.159.214.134",
-    "api.kanban-join.com",
-    ".herokuapp.com"
-]
+# CORS_ALLOWED_ORIGINS = [
+#     "127.0.0.1",
+#     "localhost",
+#     "34.159.214.134",
+#     "api.kanban-join.com",
+#     ".herokuapp.com"
+# ]
 
 ROOT_URLCONF = 'join.urls'
 
