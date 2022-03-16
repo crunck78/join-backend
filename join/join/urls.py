@@ -21,3 +21,4 @@ urlpatterns = [
     path('api/', include('tasks.urls')),
     path('auth/', include('custom_users.urls'))
 ]
+
